@@ -7,7 +7,7 @@
 
 body{
     min-height: 100vh;
-    background-color:aqua;
+    background-color:#00ffff;
     display: grid;
     place-items: center;
 }
@@ -22,15 +22,37 @@ body{
     border-radius: 1rem;
     grid-template-columns: repeat(4, 1fr);
     gap: .5rem;
-}
+    }
+
 .pantalla {
     grid-column: 1 / -1;
     background-color:rgb(10, 9, 9);
     padding: 1.5rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: right;
     border-radius: .5rem;
     margin-bottom: 1rem;
     font-family: monospace;
     font-weight: 600;
+}
+
+.btn {
+    background-color: rgb(159, 230, 253);
+    color: blueviolet;
+    border: 0;
+    padding: 1.5rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.btn:hover {
+    background-color:#00ffff;
+    }
+
+#cero {
+    grid-column: span 2;
 }
