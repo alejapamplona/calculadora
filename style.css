@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:fantasy;
 }
 
 header{
@@ -71,4 +71,9 @@ body {
 
 #igual:hover {
     background-color: darkslateblue;
+}
+
+.footer{
+    display: grid;
+    place-items: center;
 }
